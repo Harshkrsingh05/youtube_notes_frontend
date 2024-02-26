@@ -9,8 +9,9 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  darkMode: "class",
-  theme: {
+
+  theme: 
+{
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -31,3 +32,4 @@ function addVariablesForColors({ addBase, theme }: any) {
     ":root": newVars,
   });}
 export default config;
+
